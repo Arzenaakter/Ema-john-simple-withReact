@@ -7,6 +7,7 @@ const Product = (props) => {
     
     const {name,price,seller,quantity,img,ratings} = props.product ;
     const HandleAddtoCart = props.HandleAddtoCart;
+    
    
     return (
         <div className='product'>
